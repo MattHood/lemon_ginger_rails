@@ -54,6 +54,7 @@ group :development, :test do
 end
 
 group :development do
+  gem 'annotate'
   gem 'rubocop'
   gem 'solargraph'
   gem 'solargraph-rails'

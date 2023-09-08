@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  configuration_url: MyString
+  configuration_tag: MyString
+  execution_url: MyString
+  execution_tag: MyString
+  name: MyString
+
+two:
+  configuration_url: MyString
+  configuration_tag: MyString
+  execution_url: MyString
+  execution_tag: MyString
+  name: MyString
