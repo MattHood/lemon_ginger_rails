@@ -6,6 +6,7 @@
 
 .DS_Store
 .nova/
+Gemfile.lock
 
 # Ignore bundler config.
 /.bundle
