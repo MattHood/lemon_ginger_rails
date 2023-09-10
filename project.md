@@ -1,8 +1,5 @@
-# Data model
-- DONE Create tables
-- DONE Create associations
-- TODO Create fixtures and seeds
-- TODO Test associations
-
-# Logic
-- TODO Map features to CRUD actions
+- DONE Activity show, input testing
+- DONE Front-and-back activity web component
+- DONE Seed above
+- TODO Prevent Activity re-seeding
+- TODO CRUD features for flashcards

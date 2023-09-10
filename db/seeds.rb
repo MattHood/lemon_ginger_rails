@@ -5,3 +5,10 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+Activity.create!(
+	configuration_url: '',
+	configuration_tag: '',
+	execution_url: '/assets/js/activities/front_and_back.js',
+	execution_tag: 'lg-front-and-back',
+	name: 'Front and Back'
+);

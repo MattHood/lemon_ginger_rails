@@ -1,0 +1,10 @@
+<h1 class="title">Activities#show</h1>
+<%= javascript_include_tag 'activities/front_and_back', type: 'module' %>
+<div data-controller="activities"
+	 data-activities-execution-url-value="<%= @activity.execution_url %>"
+	 data-activities-execution-tag-value="<%= @activity.execution_tag %>">
+	<textarea class="textarea" rows="3" cols="10" data-activities-target="dataJSON">{“front”:”asdf”}</textarea>
+	<input class="button" type="button" data-action="click->activities#update" value="Update">
+	
+	<div data-activities-target="container"></div>
+</div>

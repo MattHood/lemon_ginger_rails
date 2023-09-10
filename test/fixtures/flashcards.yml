@@ -1,11 +1,5 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-one:
-  activity: one
-  data_json: MyText
-  name: MyString
-
-two:
-  activity: two
-  data_json: MyText
-  name: MyString
+chicken_joke:
+  activity: front_and_back
+  data_json: '{ front: "Why did the chicken cross the road?", back: "To get to the other side." }'
+  name: Chicken Joke
