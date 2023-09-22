@@ -1,0 +1,7 @@
+<h1>Flashcards#new</h1>
+<p>
+	<%= form_with model: @flashcard do |form| %>
+		<%= form.text_area  :body, size: "60x5" %>
+		<%= form.submit %>
+	<% end %>
+</p>

@@ -29,6 +29,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_08_221803) do
     t.index ["user_id"], name: "index_decks_on_user_id"
   end
 
+
   create_table "flashcard_instances", force: :cascade do |t|
     t.integer "flashcard_id", null: false
     t.integer "deck_id", null: false

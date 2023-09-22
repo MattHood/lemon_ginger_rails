@@ -2,4 +2,4 @@
 - DONE Front-and-back activity web component
 - DONE Seed above
 - TODO Prevent Activity re-seeding
-- TODO CRUD features for flashcards
+- TODO CRUD features for flashcards - Need to be able CRUD flashcards so that they can be added to a deck
